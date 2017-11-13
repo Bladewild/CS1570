@@ -1,0 +1,42 @@
+Alogrithms
+
+Alain Markus Santos-Tankia (Marky) Section: E
+
+Problem 1:
+1) Read student ID and store in array. Either resize for each new ID
+or find total number of IDs first then store. 
+2) Store a number within the array size from a
+random number generator.
+3) Use the stored number to assign a leaving student a random ID.
+Remove an id from the array and reduce both id array and possible
+number generated from random number by 1.
+4) Reapeat 2-3
+5) Once all students have an ID, the first student will compare his
+id with 2nd on so forth. If student already has his id, skip
+to next student.
+6) If he finds his id, he will switch with the student that has it.
+7) Repeat 5-6 but with the next student in line.
+8) Students leave once all ids are matched.
+
+Problem 2   
+1) Store number.
+2) Read first number (smallest value) and multiply by 1 then store
+it as int num1.
+3) Read 2nd number and multiply by 12,3rd by 144 and so on all while
+storing in new int like num2 or num3.
+4) If the number is A, convert it 10, B as 11. Multiply appropriately 
+depending on which number it is on. (So x1 for 1st or x12 for 2nd)
+5) Stop reading when next number is empty.
+6) Add num1,num2,num3,etc and store this number in int sum.
+7) Display Sum.
+
+Problem 3
+1) Read and store the two strings in W1 and W2.
+2) Compare the first character of each string.
+3) To compare, convert character into it's numerical value.
+4) Move on to next if difference in values is 0.
+5) Repeat 2-4 until comparison does not equal 0.
+6) Store the positive difference of values as int difW.
+6) Display comparison that resembles "W1 is [W1] and W2 [W2]
+so Lex-dif is [difW] since [equation that results in positive
+integer] [difW]". All in brackets are substituted appropirately.
